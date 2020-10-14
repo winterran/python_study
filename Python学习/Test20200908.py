@@ -9,14 +9,15 @@ import requests
 
 
 #本部分用于os、requests外部库调用的测试
-'''
+
 print(os.getcwd())
 age=3**2   #**是幂函数的表示法
 name=input('姓名：')
 print("{0} was {1} years old.", format(name,str(age)))
 print(id(name),type(name),id(age),type(age)) #显示变量的内存地址、变量类型
 print(name + ' was ' + str(age) +' years old.')
-'''
+
+
 '''
 r=requests.get('http://www.google.com')
 print(r.url)
@@ -145,6 +146,7 @@ for i in range(3):
 
 '''
 
+'''
 import turtle
 
 def drawSnake(rad,angle,len,neckrad):
@@ -165,3 +167,4 @@ def main():
     drawSnake(40,80,5,pythonsize/2)
 
 main()
+'''

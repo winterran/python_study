@@ -1,0 +1,8 @@
+能够将Mp4格式视频转尺寸转换
+要求：
+需要先安装python3
+步骤：
+1.将所有视频拷贝到本文件夹下；
+2.window系统，双击VideoFormat_window
+3.mac系统，双击VideoFormat_mac
+3.所有结果都保存在result文件夹下
